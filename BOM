@@ -1,0 +1,35 @@
+Below are prices in USD from the US DigiKey. Conversions to come...
+
+Micro:
+	STM32W108CBU63TR -- $6.92/1, $6.24/10      128kB flash
+	http://search.digikey.com/us/en/products/STM32W108CBU63TR/497-11410-1-ND/2679610
+	STM32W108C8U64TR -- $5.79/1, $5.21/10      64kB flash
+	http://search.digikey.com/us/en/products/STM32W108C8U64TR/497-11408-1-ND/2679606
+
+Balun:
+	Johanson 2450BL15B100E -- $0.70/1
+	http://search.digikey.com/us/en/products/2450BL15B100E/712-1041-1-ND/1560870
+	Similar to WE-748421245 on MB851 -- same package
+
+Bandpass filter:
+	Johanson 2450BP39C100CE -- $0.83/1, $0.70/10
+	http://search.digikey.com/us/en/products/2450BP39C100CE/712-1089-1-ND/1560918
+	Similar to WE-748351124 on MB851 but with reduced insertion loss -- same package
+
+	TDK DEA252450BT-2027A1 -- $2.26/1, $1.87/10
+	http://search.digikey.com/us/en/products/DEA252450BT-2027A1/445-3254-1-ND/1211483
+	Similar again and inordinately expensive but same package and much tighter filter.
+	Curiosity will kill me.
+
+	For the above two parts we should be able to sample the WE components as well for comparison
+
+Crystal:
+	NDK NX5032GA-24.000000MHZ-LN-CD-1 -- $0.81/1, $0.70/10
+	http://search.digikey.com/us/en/products/NX5032GA-24.000000MHZ-LN-CD-1/644-1040-1-ND/1128912
+	24MHz crystal with 30ppm stability and 20ppm tolerance -- Small package (5x3.2mm)
+	40ppm required for ZigBee
+
+	NDK NX3225SA-24.000000MHZ -- $1.06/1, $0.92/10
+	http://search.digikey.com/us/en/products/NX3225SA-24.000000MHZ/644-1052-1-ND/1128924
+	15ppm stability and tolerance -- Even smaller package (3.2x2.5mm)
+
